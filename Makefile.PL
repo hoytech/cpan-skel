@@ -4,7 +4,7 @@ use ExtUtils::MakeMaker;
 
 
 my %args = (
-    NAME => 'QQQ',
+    NAME => 'QQQ::QQQ',
     VERSION_FROM => 'lib/QQQ.pm',
     PREREQ_PM => {
       'common::sense' => 0,

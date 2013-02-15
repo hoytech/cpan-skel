@@ -1,8 +1,8 @@
 package QQQ;
 
-use common::sense;
-
 our $VERSION = 'QQQ';
+
+use common::sense;
 
 1;
 
