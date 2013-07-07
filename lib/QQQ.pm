@@ -8,6 +8,7 @@ use common::sense;
 
 
 
+=encoding utf-8
 
 =head1 NAME
 
