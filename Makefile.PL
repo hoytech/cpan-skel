@@ -9,8 +9,8 @@ my %args = (
     PREREQ_PM => {
       'common::sense' => 0,
     },
-    LIBS              => [],
-    DEFINE            => '',
+    LIBS => [],
+    DEFINE => '',
     LICENSE => 'perl',
     dist => {
       PREOP => 'perldoc -uT lib/QQQ.pm > README.pod; pod2text README.pod > $(DISTVNAME)/README',
