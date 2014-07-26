@@ -13,7 +13,7 @@ my %args = (
     DEFINE => '',
     LICENSE => 'perl',
     dist => {
-      PREOP => 'perldoc -uT lib/QQQ.pm > README.pod; pod2text README.pod > $(DISTVNAME)/README',
+      PREOP => 'pod2text $(VERSION_FROM) > $(DISTVNAME)/README',
     },
 );
 
