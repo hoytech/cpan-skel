@@ -15,17 +15,12 @@ my %args = (
     dist => {
       PREOP => 'pod2text $(VERSION_FROM) > $(DISTVNAME)/README',
     },
+    META_MERGE => {
+      resources => {
+        repository => 'git://github.com/hoytech/QQQ.git',
+        bugtracker => 'https://github.com/hoytech/QQQ/issues',
+      },
+    },
 );
-
-
-my $eummv = eval ($ExtUtils::MakeMaker::VERSION);
-if ($eummv >= 6.45) {
-    $args{META_MERGE} = {
-        resources => {
-            repository => 'git://github.com/hoytech/QQQ.git',
-            bugtracker => 'https://github.com/hoytech/QQQ/issues',
-        },
-    };
-}
 
 WriteMakefile(%args);
