@@ -1,6 +1,6 @@
 package QQQ;
 
-our $VERSION = 'QQQ';
+our $VERSION = '0.100';
 
 use common::sense;
 
